@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: "Edu AU VIC WA NT Pre", sans-serif;
+}
+
+#body1 {
+    background-color: lightcyan;
+}
+
+#body_paella {
+    background-color: lightyellow;
+}
+
+#body_omelette {
+    background-color: #ffeba1;
+}
+
+#body_rice {
+    background-color: whitesmoke;
+}
+
+.recipes {
+    text-decoration: none;
+    background-color: #8be0ca;
+    padding: 8px;
+    display: inline-block;
+    margin: 4px 0;
+    border-radius: 10px;
+}
+
+.recipes:visited {
+    color: black;
+}
+
+.recipes:hover {
+    background-color: #4e9fa3;
+}
+
+img {
+    border-radius: 100px;
+    float: right;
+    margin: 0px 0px 15px 15px;
+}
+
+li {
+    margin: 5px;
+}
+
+.ingredients li::marker {
+    color: orange
+}
